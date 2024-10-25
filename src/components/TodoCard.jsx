@@ -11,8 +11,6 @@ export function TodoCard(props) {
          <div className='todo-buttons'>
             <button
                onClick={() => {
-                  console.log("in card to do", todo.id)
-
                   handelCompletedTodo(todoId)
                }}
                disabled={todo.completed}
@@ -21,7 +19,6 @@ export function TodoCard(props) {
             </button>
             <button
                onClick={() => {
-                  console.log(todoId)
                   handleDeleteTodo(todoId)
                }}
             >

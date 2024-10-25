@@ -12,7 +12,6 @@ export function TodoList(props) {
    return (
       <>
          {filterTodoList.map((todo, todoIndex) => {
-            console.log(todo.id)
             return (
                <TodoCard
                   key={todoIndex}
